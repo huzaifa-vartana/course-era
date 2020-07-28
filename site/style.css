@@ -2,10 +2,12 @@ h1 {
     color: purple;
     font-family: sans-serif;
     font: bold;
+    clear: both;
 }
 
 form {
     color: red;
+    clear: both;
 }
 
 button {
@@ -14,4 +16,14 @@ button {
 
 body {
     color: teal;
+}
+
+.navigation {
+    background-color: saddlebrown;
+    color: rgb(247, 0, 255);
+}
+
+.navigation li {
+    float: left;
+    list-style: none;
 }
