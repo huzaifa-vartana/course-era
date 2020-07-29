@@ -20,10 +20,20 @@ body {
 
 .navigation {
     background-color: saddlebrown;
-    color: rgb(247, 0, 255);
+    color: rgb(243, 201, 16);
 }
 
 .navigation li {
     float: left;
+    text-decoration: none;
+    padding: 23px;
+    font-size: large;
     list-style: none;
+    border: 2px solid black;
+    text-align: center;
+    display: inline-block;
+    position: sticky;
+    background-color: rgb(243, 201, 16);
+    color: black;
+    width: 344px;
 }
