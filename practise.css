@@ -36,16 +36,17 @@ nav {
   display: inline-block;
 }
 .container {
+
   align-items: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   /* border: 2px solid red; */
-  width: 640px;
+  width: auto;
   font-family: sans-serif;
   padding: 54px 23px;
-  margin: 11px auto;
+  margin: 0px auto;
 }
 .box1 {
   font-size: 50px;
@@ -53,6 +54,7 @@ nav {
 }
 .box2 {
   margin-top: 23px;
+  width: 640px;
   text-align: center;
 }
 .btn1 {
@@ -71,13 +73,15 @@ nav {
 .container2 {
   align-items: center;
   display: flex;
+  background-color: #d2c7b6;
   flex-direction: column;
   /* border: 2px solid red; */
   width: auto;
   height: 600px;
   margin: 0px auto;
 }
-.box1-services {
+.box1-services,
+.contact {
   font-size: 40px;
   font-weight: bold;
 }
@@ -102,8 +106,8 @@ nav {
   flex-direction: column;
   text-align: center;
   width: 299px;
-  background-color: rgb(211, 212, 196);
-  border: 2px solid rgb(221, 189, 44);
+  background-color: rgb(168 161 175);
+  border: 2px solid white;
 }
 .img_1,
 .logo {
@@ -115,7 +119,32 @@ nav {
   padding: -74px 113px;
   width: 38px;
 }
-.container3 {
-    display: flex;
-    flex-direction: column;
+.container3,
+.c {
+  margin: 5px auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.contact {
+  margin-bottom: 22px;
+}
+.cimage {
+  z-index: -1;
+  width: 100%;
+}
+.container3{
+background-image: url("https://source.unsplash.com/1600x900/?food");
+z-index: -1;
+opacity: 0.9;
+
+}
+.container{
+    background-image: url("https://source.unsplash.com/user/erondu/1600x900");
+    opacity: 0.8;
+}
+p{
+width: 328px;
+
 }
