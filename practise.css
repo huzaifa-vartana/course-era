@@ -1,0 +1,47 @@
+head,root,div,html {
+    padding: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+}
+nav li {
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+  color: white;
+  padding: 24px;
+  /* background-color: gray; */
+  /* border: 2px solid red; */
+  margin: 17px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav ul {
+  /* background-color: grey */
+  /* padding: 27px; */
+  /* opacity: 0.5; */
+  /* color: white; */
+}
+nav {
+  background-color: grey;
+  padding: 11px;
+}
+.container{
+align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 2px solid red;
+width: 640px;
+font-family: sans-serif;
+padding: 54px 23px;
+margin: 106px auto;
+}
+.box1{
+
+font-size: 40px;
+font-weight: bold;
+
+}
