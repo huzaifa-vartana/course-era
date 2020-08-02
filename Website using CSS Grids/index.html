@@ -1,11 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <link rel="stylesheet" href="index.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=s, initial-scale=1.0" />
+    <title>Wesbite Using CSS Grids</title>
+    <nav>
+      <div class="container1">
+        <div id="img">
+          <img id="logo" class="img" src="logo.jpg" alt="Logo" />
+        </div>
+        <div id="box1" class="box"><a href="#">Home</a></div>
+        <div id="box2" class="box"><a href="#">Our Services</a></div>
+        <div id="box3" class="box"><a href="#">About Us</a></div>
+        <div id="box4" class="box"><a href="#">Contact Us</a></div>
+      </div>
+    </nav>
+  </head>
+  <body>
+    <section class="s1">
+      <div class="container2">
+        <div class="box_s2" id="box2-1"><h1>Welcome to my Website</h1></div>
+        <div class="box_s2" id="box2-1">
+          <p id="p1">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            quia numquam aliquid, neque placeat quasi dicta at voluptates
+            impedit doloribus inventore quisquam quae, reiciendis molestias,
+            laborum perferendis rem nam exercitationem?
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="s2">
+      <div id="heading"><h2>Our Services</h2></div>
+      <div class="container3">
+        <div class="box_s3" id="box-1">
+          <div>
+            <img class="img" id="img_s1" src="download.jpg" alt="" />
+          </div>
+          <div class="s2_h">
+            <h3>Food Ordering</h3>
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+              odit, numquam fugit itaque laborum quisquam a non assumenda totam
+              quas sapiente eaque ipsum sequi commodi doloribus reprehenderit
+              deleniti dolorem culpa?
+            </p>
+          </div>
+        </div>
+        <div class="box_s3" id="box-2">
+          <img class="img" id="img_s1" src="download.jpg" alt="" />
+          <div class="s2_h">
+            <h3>Catering</h3>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam odit,
+            numquam fugit itaque laborum quisquam a non assumenda totam quas
+            sapiente eaque ipsum sequi commodi doloribus reprehenderit deleniti
+            dolorem culpa?
+          </p>
+        </div>
+        <div class="box_s3" id="box-3">
+          <img class="img" id="img_s1" src="download.jpg" alt="" />
+          <div class="s2_h">
+            <h3>Bulk Ordering</h3>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam odit,
+            numquam fugit itaque laborum quisquam a non assumenda totam quas
+            sapiente eaque ipsum sequi commodi doloribus reprehenderit deleniti
+            dolorem culpa?
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="s3">
+      <div>
+        <h3 class="contact">Contact Us</h3>
+      </div>
+      <div class="container4">
+        <form action="index.php">
+          <div class="c c1">
+            <h4>Name:</h4>
+            <br />
+            <input type="text" placeholder="Enter Name" />
+          </div>
+          <div class="c c1">
+           <h4>Email:</h4> <br />
+            <input type="email" placeholder="Enter Email" />
+          </div>
+          <div class="c c1">
+            <h4>Phone Number:</h4><br />
+            <input type="number" placeholder="Enter Phone" />
+          </div>
+          <div class="c c1">
+            <h4>Message:</h4><br />
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
+          <div class="c c1">
+            <input class="btn1" type="submit" />
+            <input class="btn1" type="reset" />
+          </div>
+        </form>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
 </html>
