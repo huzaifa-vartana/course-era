@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Node.js</title>
+  </head>
+  <body>
+    <div id="container">
+      <form action="/savedata" method="POST">
+        <h1>Enter Data to be written to a file</h1>
+        <textarea
+          name="name"
+          id="inputdata"
+          cols="30"
+          rows="10"
+          placeholder="Enter Data"
+        ></textarea>
+        <button id="btn" onclick="getdata()">Submit</button>
+      </form>
+    </div>
+
+    <script>
+      function getdata() {
+        data = document.getElementById("inputdata").value;
+        console.log(data);
+      }
+    </script>
+  </body>
+</html>
