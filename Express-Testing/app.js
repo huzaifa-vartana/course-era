@@ -22,23 +22,13 @@ app.get("/about", function print(req, res) {
   res.send("About Us");
 });
 app.post("/savedata", urlencodedParser, function (req, res) {
-  // Prepare output in JSON format
-  // response = {
-  //   first_name: req.body.name
-  // };
-
   sdata = req.body.name;
   console.log(sdata);
-  // let written=fs.writeFileSync("savedata.txt",sdata);
   fs.appendFileSync("savedata.txt", sdata + os.EOL);
-  // fs.appendFileSync("savedata.txt","\n");
   res.render("index", {
     title: "Saved data",
     message: `Data Saved: \t${sdata}`,
   });
-  // res.end("Written");
-  // console.log(response);
-  // res.end(JSON.stringify(response));
 });
 
 app.listen(port, () => {
